@@ -40,6 +40,18 @@ the link is really used. That is a real disagreement about what the rubric's tes
 practice, not a mistake by either side — and it's Sofia's page, so her judgment stands. Worth
 knowing: as things sit now, a strict read of RUBRIC.md item 4 fails again, on purpose.
 
+## What it failed to verify
+
+After PR #42 was merged, the agent told Sofia the page was live with her correction (the
+reverted quote, the restored LinkedIn link) already on it. That was wrong. The correction
+had been pushed to the same branch *after* the PR was already merged, so it never actually
+landed — but the agent checked "is the PR merged?" and treated that as proof the content was
+right, instead of checking the live page itself. The gap sat there until Sofia gave the real
+assignment instructions and a fresh check of the live site turned up the old quote and the
+missing LinkedIn link. "Merged" is a fact about the PR. It is not the same fact as "the page
+says what I think it says" — the agent should have checked the second thing directly, and
+initially didn't. Fixed by a new pull request (#49) that carries the correction forward.
+
 ## What it did not touch
 
 No project card was rewritten to invent a duplicate outcome or a false claim. The two cards
