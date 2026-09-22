@@ -1,0 +1,3 @@
+# Goal
+
+A marketing manager at a beauty or fragrance brand, with the creative concept for her next launch already decided, lands on Maria Paula Casas's page — maybe she follows Maria on social media — and within a minute understands that Maria has already run events like this one, with concrete examples such as a Givenchy perfume launch, where Maria proposed brand-personalization details (the logo on the mirrors, on the matcha cups) inside a wellness experience. The manager leaves the page convinced that Maria knows how to turn an already-defined creative line into a carefully executed experience, and writes to her directly about her next event.
