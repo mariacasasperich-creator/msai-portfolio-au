@@ -1,36 +1,34 @@
 # What the agent got wrong
 
-## What it overstated
-The professional tagline written for this page — "Pharmaceutical Chemist bringing lab-tested
-rigor to AI-driven drug discovery and clinical data science" — borrows GOAL.md's own language
-for the job Valentina wants, and phrases it as something she is already doing ("bringing... to"),
-not something she is working toward. She is a Pharmaceutical Chemist and an AI student; she has
-not yet worked professionally in AI-driven drug discovery. That gap between aspiration and
-present tense should have been flagged plainly instead of smoothed into confident-sounding copy.
+## What it invented / overstated
+Last week's pass wrote the tagline "Pharmaceutical Chemist bringing lab-tested rigor to
+AI-driven drug discovery and clinical data science" — phrased as a present-tense fact,
+when the drug-discovery/clinical-data connection is an aim, not something she has done
+professionally. Against RUBRIC.md item 1 (identity line must be honest about tense),
+this fails outright. This run rewrote it to "Pharmaceutical Chemist and MS in Artificial
+Intelligence student, aiming to bring lab-tested rigor to..." — same real facts, the
+unearned present tense removed. Rubric item 1 now passes.
 
 ## What it made blander
-It replaced "I love my mom." — a line Valentina chose deliberately, more than once, across
-earlier sessions — with the generic-sounding professional line above. The new line targets the
-hiring-manager reader in GOAL.md better, but it is also the kind of sentence dozens of other
-AI-plus-healthcare candidates could write. The swap happened during an autonomous pass ("keep
-going on your own"); it was reported back afterward, but was never put to Valentina as a real
-yes/no before it shipped to the live site.
+That same tagline replaced "I love my mom." — a line Valentina chose deliberately, more
+than once, across earlier sessions — with generic-sounding professional copy. It targets
+GOAL.md's reader better, but it is also a sentence dozens of other AI-plus-healthcare
+candidates could write. The swap happened during an autonomous pass and was reported
+back afterward, not put to her as a real yes/no first.
 
 ## Feedback it ignored, and why
-FEEDBACK.md contains two comments — "impressive," "Amazing background!!" — and neither names
-anything specific to fix. No edit in this project was made because of them. That is a real gap
-to admit: they were read but never acted on, not because they were weighed and found wanting,
-but because there was nothing concrete in them to act on.
+FEEDBACK.md has two comments — "impressive," "Amazing background!!" — and neither names
+anything specific to fix. No edit was made because of them. That's a real gap to admit:
+they were read but never acted on, because there was nothing concrete in them to act on,
+not because they were weighed and rejected.
 
-## What it failed to verify
-Earlier in this project, "pull request merged" was treated as equivalent to "the live page is
-correct" — including when reporting pull request #35's merge back to Valentina without loading
-the live URL to confirm what visitors would actually see. Only this pass checked the live page
-directly before writing this file.
+## What it rejected fixing, and why (still fails: RUBRIC.md item 5)
+All four project cards still read "exploring how..." / "a conceptual system designed to
+explore...". Rewriting this to sound more finished would mean guessing how complete the
+underlying work actually is — inventing a fact — so it was rejected. This is the one
+rubric item still failing after this run, and probably GOAL.md's biggest remaining risk.
 
-## What it still left broken, on purpose
-All four project cards still say "Exploring how..." or "a conceptual system designed to explore
-...". That phrasing is honest about how unfinished the work might be, but it also reads exactly
-like the vague enthusiasm GOAL.md's reader is trying to screen out. Rewriting it to sound more
-finished would mean guessing how complete the work actually is — inventing a fact — so it was
-left alone. This is still open, and is probably the biggest remaining risk against GOAL.md.
+## What it failed to verify (earlier in this project, now corrected)
+Pull request #35's "merged" status was once reported to Valentina as proof the live page
+was correct, without loading the live URL to check. This run checked the live page
+directly before making any claim about it.
