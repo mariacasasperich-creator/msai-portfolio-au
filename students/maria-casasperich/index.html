@@ -11,6 +11,18 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../../assets/style.css">
+<style>
+/* Phone only: show my name and what I do first, then the photo, then the links. */
+@media (max-width:860px){
+  .cols{display:flex;flex-direction:column;align-items:stretch;gap:0}
+  .cols aside,.cols main{display:contents}
+  .cols h1{order:1;margin:0 0 12px}
+  .cols .quote{order:2;margin:0 0 24px}
+  .cols .photo-card{order:3}
+  .cols .rail-link{order:4}
+  .cols main > :not(h1):not(.quote){order:5}
+}
+</style>
 </head>
 <body>
 
@@ -39,6 +51,8 @@
       <a class="rail-link" href="https://github.com/mariacasasperich-creator">GitHub profile</a>
       <a class="rail-link" href="resume.pdf">Résumé</a>
       <a class="rail-link" href="https://www.plenah.com">Plenah</a>
+      <a class="rail-link" href="mailto:hello@plenah.com">hello@plenah.com</a>
+      <a class="rail-link" href="https://www.instagram.com/plenah_/">Instagram @plenah_</a>
     </aside>
 
     <!-- ================= MAIN COLUMN ================= -->
